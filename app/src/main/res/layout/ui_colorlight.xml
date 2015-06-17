@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_color_light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f00"
+    android:onClick="onClick_ShowColorPicker"
+    android:visibility="gone">
+
+    <com.peter.superlight.widget.HideTextView
+        android:id="@+id/textview_hide_color_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="点击屏幕显示调色板形成彩色灯"
+        android:layout_gravity="center" />
+
+</FrameLayout>
